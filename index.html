@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- &nbsp hyde btaeml space bynetun -->
+    <h1 id="heading">&nbsp &nbsp ROCK &nbsp &nbsp PAPER &nbsp &nbsp SCISSOR</h1>
+    <!-- hyda krml n3rod lscore bi 2albu -->
+    <h2
+      id="scoreboard"
+      style="text-align: center; color: white; font-size: xx-large"
+    >
+      Player: 0 &nbsp;&nbsp; | &nbsp;&nbsp; Computer: 0
+    </h2>
+    <div id="hands-container">
+      <div id="hand1">
+        <img src="imgs/rock.png" id="img1" />
+      </div>
+      <div id="hand2">
+        <img src="imgs/rock.png" id="img2" />
+      </div>
+    </div>
+
+    <button type="button" onclick="game(0)" id="rock">ROCK</button>
+    <button type="button" onclick="game(1)" id="paper">PAPER</button>
+    <button type="button" onclick="game(2)" id="scissors">SCISSOR</button>
+    <button type="button" onclick="start()" id="start">START</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
